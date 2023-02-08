@@ -1,14 +1,20 @@
-<script lang="ts">
+<svelte:head>
+	<title>Home</title>
+	<meta name="description" content="" />
+</svelte:head>
 
-</script>
-
-<!-- <img src={Bkcolor} alt="Bkcolor" /> -->
-
-<!-- <div class="background"></div> -->
-
-<main>
-	<h1 class="text-4xl font-bold text-center text-yellow-800 md:text-8xl">
-		Learn Your Multiplication tables
+<div class="text-column">
+	<h1>Learn Your multiplication Tables. 
+	<p>By Exploring  planets while learning	</p>
 	</h1>
+
+
+<!-- 	
+	<p>
+		The page you're looking at is purely static HTML, with no client-side interactivity needed.
+		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
+		the devtools network panel and reloading. (IMPORT IMAGE HERE AS A SVG FILE )
+	</p> -->
+
 	
-</main>
+</div>

@@ -4,14 +4,14 @@
 </script>
 
 <div class="app">
-	<!-- <Header /> -->
+	<Header />
 
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<p><a href="https://github.com/mbelmontes7">Design by Magaly</a></p>
+		<p><a href="https://magalybelmontes77.notion.site/Magaly-s-creativity-home-8a88ba5e947f44ffb5d35acebf64f678">Design by Magaly</a></p>
 	</footer>
 </div>
 
