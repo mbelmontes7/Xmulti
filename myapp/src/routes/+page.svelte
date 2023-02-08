@@ -2,10 +2,8 @@
 <script>
 
 </script>
-<section>
-	<h1>
-		<span class="Multiplication table">
-			<div>Learning Your Multiplication Tables </div>
-
-</section>
+<main>
+	<h1 class="text-4xl font-bold text-center text-yellow-800 md:text-8xl"
+	>Learn Your Multiplication tables </h1>
+</main>
 
