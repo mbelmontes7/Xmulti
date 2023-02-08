@@ -1,0 +1,21 @@
+<svg width="1941" height="1097" viewBox="0 0 1941 1097" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="iPhone SE - 3" clip-path="url(#clip0_729_1047)">
+<rect width="1941" height="1097" fill="url(#paint0_linear_729_1047)"/>
+<ellipse id="Gradient" cx="100.012" cy="99.0473" rx="170.093" ry="280.106" transform="rotate(33.8387 100.012 99.0473)" fill="url(#paint1_linear_729_1047)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_729_1047" x1="970.5" y1="0" x2="970.5" y2="1097" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6A35EE"/>
+<stop offset="0.145833" stop-color="#9930EF" stop-opacity="0.854167"/>
+<stop offset="0.614583" stop-color="#5737EE"/>
+<stop offset="1" stop-color="#795CEB"/>
+</linearGradient>
+<linearGradient id="paint1_linear_729_1047" x1="100.012" y1="-181.059" x2="100.012" y2="379.153" gradientUnits="userSpaceOnUse">
+<stop stop-color="#210000"/>
+<stop offset="1" stop-color="#320F85" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_729_1047">
+<rect width="1941" height="1097" fill="white"/>
+</clipPath>
+</defs>
+</svg>
