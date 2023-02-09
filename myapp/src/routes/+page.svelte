@@ -6,7 +6,11 @@
 <div class="text-column text-8xl">
 	<h1>Learn Your multiplication Tables. 
 	</h1>
+
+
 	<a href="/Start"><!-- In this section you made a svg and made it clickable  -->
+			
+	<div class="svg-container">
 		<svg width="200" height="200" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g filter="url(#filter0_d_738_1028)">
 			<rect width="87.9122" height="26.7004" rx="13.3502" transform="matrix(0.999994 -0.00340917 0.0033076 0.999995 4 0.299683)" fill="url(#paint0_radial_738_1028)"/>
@@ -30,8 +34,16 @@
 			</radialGradient>
 			</defs>
 			</svg>
-</a>
-
-
+			<style>
+				.svg-container {
+				  display: flex;
+				  justify-content: center;
+				  align-items: center;
+				  height: 100%;
+				}
+			  </style>
+			  
 	
 </div>
+</div>
+
