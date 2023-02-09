@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
+	
 </script>
 
 <header>
@@ -45,7 +44,7 @@
 		width: 3em;
 		height: 3em;
 	}
-
+/* 
 	.corner a {
 		display: flex;
 		align-items: center;
@@ -58,7 +57,7 @@
 		width: 2em;
 		height: 8em;
 		object-fit: contain;
-	}
+	} */
 
 	nav {
 		display: flex;
