@@ -15,13 +15,13 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Homee</a>
+				<a href="/">Home</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+				<a href="/sverdle">contact us </a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -62,7 +62,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(25, 139, 184, 0.7);
+		--background: rgba(59, 0, 85, 0.7);
 	}
 
 	svg {

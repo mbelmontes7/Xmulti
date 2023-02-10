@@ -6,10 +6,10 @@
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(231, 231, 231);
 	--color-bg-1: hsl(0, 0%, 100%);
-	--color-bg-2: hsl(224, 44%, 95%);
+	--color-bg-2: hsl(0, 0%, 0%);
 	--color-theme-1: #ffc800;
-	--color-theme-2: #4075a6;
-	--color-text: rgba(0, 0, 0, 0.7);
+	--color-theme-2: #9340a6;
+	--color-text: rgba(249, 249, 29, 0.8);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
@@ -24,6 +24,7 @@ body {
 	background-size: cover;
 	background-image: url('../lib/images/Bkcolor.svg');
 }
+/* #Here is where I put the svg background  */
 
 h1,
 h2,

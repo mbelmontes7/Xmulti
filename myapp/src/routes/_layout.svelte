@@ -2,7 +2,7 @@
     import "../app.css"
 </script>
 
-<div class = " container mx-auto my-6 ">
+<div class = " container mx-auto my-3 ">
 
 <slot>
 

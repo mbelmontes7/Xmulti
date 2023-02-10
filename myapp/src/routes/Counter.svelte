@@ -70,7 +70,7 @@
 	path {
 		vector-effect: non-scaling-stroke;
 		stroke-width: 2px;
-		stroke: #444;
+		stroke: #190101;
 	}
 
 	.counter-viewport {

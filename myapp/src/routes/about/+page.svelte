@@ -3,24 +3,16 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
-	<h1>About this appcdc!!!!</h1>
+<div class="text-column text-3xl">
+	<h1>About this app 🍎</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		As part of my current project, I am developing an application to address mathematics gaps for both children and adults. The project is currently in the prototyping phase of its user experience design, with a focus on providing a visual and interactive learning experience through the exploration of planets.
 	</p>
 
-	<pre>npm create svelte@latest</pre>
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
+	<!-- <p>
 		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
 		using it with JavaScript disabled!
-	</p>
+	</p> -->
 </div>
