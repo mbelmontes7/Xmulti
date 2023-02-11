@@ -62,7 +62,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(59, 0, 85, 0.7);
+		--background: rgba(68, 19, 88, 0.7);
 	}
 
 	svg {
@@ -109,7 +109,7 @@
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 0.5rem;
+		padding: 0 0.9rem;
 		color: var(--color-text);
 		font-weight: 700;
 		font-size: 0.8rem;

@@ -1,11 +1,12 @@
+
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="" />
 </svelte:head>
 
-<div class="text-column text-8xl">
-	<h1>Learn Your multiplication Tables. 
-	</h1>
+
+<div class="text-column text-8xl ">
+	<h1>Learn Your multiplication Tables.</h1>
 
 
 	<a href="/Start"><!-- In this section you made a svg and made it clickable  -->
