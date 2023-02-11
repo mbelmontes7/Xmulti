@@ -5,8 +5,10 @@
 </svelte:head>
 
 
+
 <div class="text-column text-8xl ">
 	<h1>Learn Your multiplication Tables.</h1>
+
 
 
 	<a href="/Start"><!-- In this section you made a svg and made it clickable  -->
@@ -49,3 +51,15 @@
 
 </div>
 
+
+
+
+<p>This is a paragraph.</p>
+
+<style>
+	p {
+		color: rgb(59, 15, 115, 0.9683);
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 2em;
+	}
+</style>
