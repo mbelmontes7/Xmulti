@@ -5,8 +5,8 @@
 	</svelte:head>
 
 <div class="StarMath text-column">
-	<h1 style="font-weight: bold; font-size: 80px;">StarMath 👩🏻‍🚀</h1>
-	<h1 style="font-weight: bold; font-size: 40px;">Master your multiplication tables. ✨FAST✨</h1>
+	<h1 style="font-weight: bold; font-size: 50px;">StarMath 👩🏻‍🚀</h1>
+	<h1 style="font-weight: bold; font-size: 2=30px;">Master your multiplication tables. ✨FAST✨</h1>
 <a href="/Start"><!-- In this section you made a svg and made it clickable  -->
 			<div class="svg-container">
 		<svg width="200" height="200" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg">
