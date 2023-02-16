@@ -3,7 +3,7 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column text-3xl">
+<div class="About">
 	<h1>About this app 🍎</h1>
 
 	<p>
@@ -16,3 +16,9 @@
 		using it with JavaScript disabled!
 	</p> -->
 </div>
+
+<style>
+	.About {
+		color: rgb(225, 165, 13);
+	}
+</style>

@@ -1,60 +1,69 @@
 <script>
-    let score = 0;
-    let answer = '';
-    let seconds = 30;
-    let timeLeft = true;
-    let highScore = localStorage.getItem('multiplication_game_high_score') || 0;
+    let email = '';
+    let password = '';
+    let error = '';
   
-    const generateQuestion = () => {
-      const num1 = Math.floor(Math.random() * 10) + 1;
-      const num2 = Math.floor(Math.random() * 10) + 1;
-      return `${num1} x ${num2}`;
-    };
-  
-    let question = generateQuestion();
-  
-    const checkAnswer = () => {
-      const [num1, num2] = question.split('x').map((str) => parseInt(str.trim()));
-      const correctAnswer = num1 * num2;
-      if (parseInt(answer) === correctAnswer) {
-        score += 1;
-        question = generateQuestion();
-        answer = '';
-      } else {
-        answer = '';
+    async function login() {
+      try {
+        await login(email, password);
+        // redirect to dashboard
+      } catch (error) {
+        console.error(error);
+        error = 'Invalid email or password';
       }
-    };
-  
-    const countdown = setInterval(() => {
-      if (timeLeft) {
-        seconds--;
-        if (seconds <= 0) {
-          clearInterval(countdown);
-          timeLeft = false;
-          if (score > highScore) {
-            highScore = score;
-            localStorage.setItem('multiplication_game_high_score', highScore);
-          }
-        }
-      }
-    }, 1000);
+    }
   </script>
   
-  <h1>Multiplication Game</h1>
-  
-  {#if timeLeft}
-    <h2>Score: {score} High Score: {highScore} Time Left: {seconds}</h2>
-    <h3>What is {question}?</h3>
-  
-    <input type="text" bind:value={answer} on:keydown={(e) => { if (e.key === 'Enter') checkAnswer() }} />
-  
-    <button on:click={checkAnswer}>Submit</button>
-  {:else}
-    <h2>Game Over</h2>
-    <h3>Your Score: {score} High Score: {highScore}</h3>
-    <button on:click={() => {seconds = 30; score = 0; question = generateQuestion(); timeLeft = true;}}>Play Again</button>
-  {/if}
   <style>
-    
+    .login-button {
+      width: 320px;
+      padding: 0px;
+      background-color: #1e0202;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(90, 8, 185, 0.2);
+    }
+  
+    .input {
+      display: block;
+      width: 100%;
+      margin-bottom: 16px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+  
+    .error {
+      color: #ff4136;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+  
+    .login-button {
+      display: block;
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #0074d9;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+  
+    .login-button:hover {
+      background-color: #0062ac;
+    }
   </style>
+  
+  <div class="login-form">
+    <h2>Login here</h2>
+    <input type="email" class="input" placeholder="Email" bind:value={email} />
+    <input type="password" class="input" placeholder="Password" bind:value={password} />
+    {#if error}
+      <div class="error">{error}</div>
+    {/if}
+    <button class="login-button" on:click={login}>Login</button>
+  </div>
   
