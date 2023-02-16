@@ -8,7 +8,7 @@
 	</svelte:head>
 
 <div class="StarMath text-column">
-	<h1 style="font-weight: bold; font-size: 50px;">StarMath👩🏻‍🚀</h1>
+	<h1 style="font-weight: bold; font-size: 50px;">StarMath 👩🏻‍🚀</h1>
 	<!-- <h1 style="font-weight: bold; font-size: 2=30px;">Master your multiplication tables. ✨FAST✨</h1> -->
 
 
@@ -55,12 +55,40 @@
 
 	}
 </style>
-</div>
+<ht>Your journey starts here with me! </ht>
 
-<div>
+<svg width="200" height="150" viewBox="0 0 95 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<rect x="16.7864" y="23.494" width="76.8113" height="73.1438" rx="36.5719" transform="rotate(-0.675086 16.7864 23.494)" fill="url(#paint0_linear_703_956)"/>
+	<rect x="52.6375" y="6.57417" width="4.82259" height="16.2502" rx="2.4113" transform="rotate(-0.675086 52.6375 6.57417)" fill="#0B0000"/>
+	<path d="M52.0016 7.3279C51.6559 7.54974 51.1478 7.54451 50.9171 7.28162C50.5642 6.87939 50.3277 6.42693 50.2254 5.95133C50.0833 5.29082 50.2058 4.61315 50.5785 3.99811C50.9511 3.38307 51.5585 2.85626 52.3289 2.4797C53.0994 2.10314 54.001 1.8925 54.9275 1.87258C55.854 1.85266 56.7669 2.02429 57.5587 2.36726C58.3505 2.71024 58.9882 3.21028 59.3968 3.80852C59.8054 4.40677 59.9679 5.0783 59.8651 5.74408C59.7962 6.19024 59.6101 6.62137 59.3197 7.01507C59.0822 7.33712 58.5214 7.39632 58.1566 7.18591C57.7902 6.97461 57.7664 6.57011 57.9575 6.23219C58.0682 6.03646 58.1416 5.82984 58.1743 5.61801C58.2411 5.18513 58.1355 4.7485 57.8698 4.35953C57.6041 3.97055 57.1895 3.64543 56.6746 3.42243C56.1598 3.19943 55.5663 3.08784 54.9639 3.10079C54.3615 3.11374 53.7753 3.2507 53.2743 3.49554C52.7734 3.74038 52.3785 4.0829 52.1362 4.4828C51.8939 4.88269 51.8142 5.32331 51.9066 5.75277C51.9568 5.98612 52.0567 6.2109 52.2013 6.41955C52.4029 6.71046 52.361 7.09729 52.0016 7.3279Z" fill="black"/>
+	<rect width="6.24007" height="27.5466" rx="3.12003" transform="matrix(0.650807 -0.759244 -0.732002 -0.681303 20.8337 76.6883)" fill="black"/>
+	<rect width="6.3993" height="26.9492" rx="3.19965" transform="matrix(0.999892 0.0147042 0.105113 -0.99446 84.199 95.5246)" fill="black"/>
+	<ellipse cx="51.6032" cy="108.938" rx="39.8246" ry="11.1963" transform="rotate(4.13155 51.6032 108.938)" fill="url(#paint1_radial_703_956)"/>
+	<ellipse cx="39.2187" cy="49.8321" rx="6.95332" ry="11.4656" transform="rotate(4.82149 39.2187 49.8321)" fill="black"/>
+	<ellipse cx="74.0487" cy="52.7708" rx="7.48791" ry="11.4656" transform="rotate(4.82149 74.0487 52.7708)" fill="black"/>
+	<path d="M47.8477 67.5282C51.9169 70.119 56.7515 70.3403 62.3778 68.9488" stroke="black" stroke-width="5.09499" stroke-linecap="round"/>
+	<defs>
+	<linearGradient id="paint0_linear_703_956" x1="55.192" y1="23.494" x2="55.192" y2="96.6378" gradientUnits="userSpaceOnUse">
+	<stop stop-color="white"/>
+	<stop offset="1" stop-color="#F3F3F3" stop-opacity="0"/>
+	</linearGradient>
+	<radialGradient id="paint1_radial_703_956" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(51.6032 108.938) rotate(90) scale(11.1963 39.8246)">
+	<stop offset="0.177083" stop-color="white"/>
+	<stop offset="1" stop-color="#434343" stop-opacity="0"/>
+	</radialGradient>
+	</defs>
+	</svg>
+	
+	
+
+
 	<h1>
-		Once upon a time, there was a spaceship named StarMath, flying through the galaxy. On board were two astronauts, 
+		Once upon a time, there was a spaceship named StarMath, 🚀  flying through the galaxy. On board were two astronauts, 
 		Alex and Maya, who were on a mission to explore new planets and galaxies.
+		<p>Are you ready to join them? Buckle up, because we're going on a fun trip to space with Alex and Maya! </p>
 		
 	</h1>
 </div>
+
+
+	

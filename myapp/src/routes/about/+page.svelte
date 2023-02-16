@@ -4,7 +4,7 @@
 </svelte:head>
 
 <div class="About">
-	<h1>About this app 🍎</h1>
+	<h1>About this app </h1>
 
 	<p>
 		As part of my current project, I am developing an application to address mathematics gaps for both children and adults. The project is currently in the prototyping phase of its user experience design, with a focus on providing a visual and interactive learning experience through the exploration of planets.
@@ -19,6 +19,11 @@
 
 <style>
 	.About {
-		color: rgb(225, 165, 13);
+		color: rgb(1, 0, 2);
+		text-align: center;
+		text-align: justify;
+		width: 800px;
+    	padding: 96px;
+		
 	}
 </style>
