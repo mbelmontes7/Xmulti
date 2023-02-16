@@ -1,8 +1,9 @@
-<!-- svelte:head>
+<svelte:head>
 <title>Home</title>
-		<meta name="description" content="" />
-		</svelte:head> -->
+		<meta name="description" content=""/>
+</svelte:head>
 <script>
+	import Start from './start/+page.svelte';
 	let showElement = false;
 	function handleScroll(event: UIEvent) {
 		if (event.target.scrollTop > 200) {
@@ -11,10 +12,10 @@
 			showElement = false;
 		}
 	}
-	import Start from './start/+page.svelte';
+	
 </script>
 
-<div on:scroll={handleScroll}>
+<div class="my-scroll-element" on:scroll={handleScroll}>
 	<p />
 	<div class="StarMath text-column">
 		<h1 style="font-weight: bold; font-size: 40px;">StarMath 👩🏻‍🚀</h1>
