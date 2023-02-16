@@ -9,7 +9,7 @@
 
 <div class="StarMath text-column">
 	<h1 style="font-weight: bold; font-size: 50px;">StarMath👩🏻‍🚀</h1>
-	<h1 style="font-weight: bold; font-size: 2=30px;">Master your multiplication tables. ✨FAST✨</h1>
+	<!-- <h1 style="font-weight: bold; font-size: 2=30px;">Master your multiplication tables. ✨FAST✨</h1> -->
 
 
 <a href="/start"><!-- In this section you made a svg and made it clickable  -->
@@ -55,4 +55,12 @@
 
 	}
 </style>
+</div>
+
+<div>
+	<h1>
+		Once upon a time, there was a spaceship named StarMath, flying through the galaxy. On board were two astronauts, 
+		Alex and Maya, who were on a mission to explore new planets and galaxies.
+		
+	</h1>
 </div>
